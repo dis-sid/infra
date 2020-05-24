@@ -1,7 +1,7 @@
 terraform {
     backend "gcs" {
         bucket = "dissid-infra-2020"
-        prefix = "tf_state"
+        prefix = "k8s_state"
     }
 }
 
